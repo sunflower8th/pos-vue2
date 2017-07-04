@@ -5,23 +5,23 @@
             <i class="icon iconfont icon-wodezichan"></i>
             <div>收银</div>
         </li>
- 
+
         <li>
             <i class="icon iconfont icon-dianpu"></i>
             <div>店铺</div>
         </li>
- 
+
         <li>
             <i class="icon iconfont icon-31quanbushangpin"></i>
             <div>商品</div>
         </li>
- 
+
          <li>
             <i class="icon iconfont icon-huiyuanqia"></i>
             <div>会员</div>
         </li>
- 
- 
+
+
         <li>
             <i class="icon iconfont icon-zuanshi"></i>
             <div>统计</div>
@@ -33,7 +33,7 @@
 </ul>
   </div>
 </template>
- 
+
 <script>
 export default {
   name: 'leftNav',
@@ -64,6 +64,7 @@ export default {
         list-style: none;
         text-align: center;
         border-bottom: 1px solid #20a0ff;
-        padding: 10px
+        padding: 10px;
+        margin: 5px 0;
     }
 </style>
